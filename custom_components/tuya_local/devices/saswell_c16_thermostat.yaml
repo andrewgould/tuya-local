@@ -173,6 +173,15 @@ entities:
             value: "Weekdays+Sat+Sun"
           - dps_val: "7"
             value: "Daily"
+  - entity: text
+    translation_key: schedule
+    category: config
+    hidden: true
+    dps:
+      - id: 25
+        type: base64
+        optional: true
+        name: value
   - entity: select
     name: Sensor select
     icon: "mdi:home-thermometer"
